@@ -1,5 +1,5 @@
 class A {
-	public A() {
-		System.out.println("This is A class Contructor");
+	public static void main(String[] args) {
+		System.out.println(A.class.getName());
 	}
 }
